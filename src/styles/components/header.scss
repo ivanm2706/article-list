@@ -1,0 +1,17 @@
+.header {
+  padding-block: 15px;
+  background-color: $mainColor;
+
+  &__content {
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    @media screen and (max-width: 680px) {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+}

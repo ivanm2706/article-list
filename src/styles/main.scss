@@ -1,0 +1,21 @@
+@import './reset.scss';
+@import './utils/vars.scss';
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html {
+  
+  font-family: "Roboto", sans-serif;
+}
+
+@import './components/header.scss';
+@import './components/container.scss';
+@import './components/search.scss';
+@import './components/modal.scss';
+@import './components/articles.scss';
+@import './components/button.scss';
+@import './components/form.scss';
+@import './components/footer.scss';
+@import './components/section.scss';
+@import './components/sort.scss';
+@import './components/loader.scss';
